@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
     tag,
     isGithub,
     isWebsite,
-    linkGitgub,
+    linkGithub,
     linkWebsite,
   } = props;
   const mode = useThemeStore((state) => state.mode);
@@ -40,7 +40,7 @@ export default function ProjectCard(props) {
         }`}
       >
         <div
-          className={`w-full xl:w-[25%] h-full xl:h-36 relative ${style.photoImage}`}
+          className={`w-full xl:w-[25%] h-44 xl:h-36 relative ${style.photoImage}`}
         >
           <img
             src={image[0]}
@@ -87,7 +87,7 @@ export default function ProjectCard(props) {
             </div>
             <div className="flex gap-2">
               {isGithub ? (
-                <a href={linkGitgub}>
+                <a href={linkGithub}>
                   <div className="flex flex-row gap-1 py-1 px-2 shadow-md rounded-md bg-[#12F3D8] text-black text-sm cursor-pointer hover:bg-[#0ddac2]">
                     <img
                       className="w-5"

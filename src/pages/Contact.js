@@ -10,11 +10,16 @@ import linkedin from '../assets/linkedin.svg';
 import google from '../assets/google.svg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
+
 export default function Contact() {
   const mode = useThemeStore((state) => state.mode);
   return (
     <>
       <div className="h-screen w-screen overflow-x-hidden">
+        <Helmet>
+          <title>Contact</title>
+        </Helmet>
         <Navbar />
         <div className="flex justify-start md:justify-between items-center flex-col md:flex-row  px-10 h-full md:h-4/5 mt-10 mb-36 md:mb-0">
           <div className="flex justify-center items-center flex-col w-1/2 animate__animated animate__backInLeft animate__slow">
@@ -68,7 +73,7 @@ export default function Contact() {
               />
             </div>
           </div>
-          <ToastContainer theme={mode==='light'?'colored':'dark'}/>
+          <ToastContainer theme={mode === 'light' ? 'colored' : 'dark'} />
         </div>
         <Footer
           nextStatus={false}

@@ -10,6 +10,7 @@ import instagram2 from '../assets/image/instagram-1.svg';
 import useThemeStore from '../store/ThemeStore';
 import cv from '../assets/cv.pdf';
 import Typed from 'react-typed';
+import { Helmet } from 'react-helmet';
 import {
   LocationMarkerIcon,
   PhoneIcon,
@@ -23,6 +24,9 @@ export default function Home() {
   return (
     <>
       <div className="h-screen w-screen overflow-x-hidden">
+        <Helmet>
+          <title>Home</title>
+        </Helmet>
         <Navbar />
         <div className="flex gap-10 flex-col-reverse mt-10 md:mt-10 mb-28 sm:mb-0 items-center justify-end md:justify-around md:flex-row md:px-10 h-full md:h-4/5">
           <div className="animate__animated animate__backInLeft animate__slow flex flex-col items-center gap-3 md:gap-5 md:items-start ">
@@ -72,7 +76,7 @@ export default function Home() {
                   }`}
                 />
                 <p className="text-sm font-quicksand font-semibold md:text-base">
-                  +62 85745898491
+                  +62 851-5774-3801
                 </p>
               </div>
               <div className="flex flex-row items-center gap-2">
