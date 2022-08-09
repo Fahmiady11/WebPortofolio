@@ -19,6 +19,7 @@ import {
 } from '@heroicons/react/solid';
 import Sosmed from '../components/molecules/Sosmed';
 import Footer from '../components/organisme/Footer';
+import style from '../assets/css/wave.module.css';
 export default function Home() {
   const mode = useThemeStore((state) => state.mode);
   return (
@@ -48,7 +49,7 @@ export default function Home() {
             </p>
             <div className="flex items-center justify-center flex-col md:items-start gap-2">
               <p className="font-nunito font-bold text-2xl tracking-wider md:text-5xl text-center sm:text-left px-4 sm:px-0">
-                Muhammad Fahmi Ady Susilo👋
+                Muhammad Fahmi Ady Susilo<span className={style.wave}>👋</span>
               </p>
               <p
                 className={`font-nunito font-semibold text-md md:text-4xl ${
@@ -114,13 +115,14 @@ export default function Home() {
               </button>
             </a>
           </div>
-          <div className="animate__animated animate__flipInY animate__slow max-w-xs md:max-w-md p-5  bg-blue-800/10 rounded-full backdrop-blur-2xl rotate-0 hover:origin-center hover:-rotate-180 transition duration-500 ease-in-out ">
+          <div className="animate__animated animate__flipInY animate__slow max-w-xs md:max-w-md p-5  bg-blue-800/10 rounded-full backdrop-blur-2xl">
             <div className="w-full p-5 bg-blue-800/10 rounded-full backdrop-blur-2xl">
               <img
-                className="rounded-full w-full"
+                className="rounded-full w-full rotate-0 hover:origin-center hover:-rotate-180 transition duration-500 ease-in-out cursor-pointer"
                 src={fotoUtama}
                 alt="fotoUtama"
               />
+              
             </div>
           </div>
         </div>
