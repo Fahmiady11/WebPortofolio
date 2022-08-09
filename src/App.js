@@ -9,7 +9,7 @@ import 'animate.css';
 import Experience from './pages/Experince';
 import Error from './pages/Error';
 import React, { useState, useEffect } from 'react';
-import wajah from './assets/wajah.png';
+import wajah from './assets/wajah.svg';
 import Typed from 'react-typed';
 function App() {
   const theme = useThemeStore((state) => state.mode);
@@ -31,24 +31,30 @@ function App() {
         }`}
       >
         {isLoad ? (
-          <div className="bg-white absolute w-full h-full flex justify-center items-center">
-            <div className='max-w-xs w-full h-auto flex justify-center items-center flex-col'>
-              <img src={wajah} alt="" className='w-1/2 drop-shadow-md'/>
-              <p className='font-poppins mt-3 font-bold text-lg text-[#332222]'>
-              <Typed
-                loop
-                typeSpeed={70}
-                backSpeed={70}
-                strings={["Loading..."]}
-                smartBackspace
-                shuffle={false}
-                backDelay={1}
-                fadeOut={false}
-                fadeOutDelay={200}
-                loopCount={0}
-                showCursor
-                cursorChar="|"
-              />
+          <div
+            className={`${
+              theme === 'light'
+                ? 'bg-white text-[#332222]'
+                : 'bg-slate-900 text-white'
+            } absolute w-full h-full flex justify-center items-center`}
+          >
+            <div className="max-w-xs w-full h-auto flex justify-center items-center flex-col">
+              <img src={wajah} alt="" className="w-1/2 drop-shadow-md" />
+              <p className="font-poppins mt-3 font-bold text-lg">
+                <Typed
+                  loop
+                  typeSpeed={70}
+                  backSpeed={70}
+                  strings={['Loading...']}
+                  smartBackspace
+                  shuffle={false}
+                  backDelay={1}
+                  fadeOut={false}
+                  fadeOutDelay={200}
+                  loopCount={0}
+                  showCursor
+                  cursorChar="|"
+                />
               </p>
             </div>
           </div>
