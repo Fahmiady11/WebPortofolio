@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import useThemeStore from './store/ThemeStore';
 import 'animate.css';
 import Experience from './pages/Experince';
+import Error from './pages/Error';
 function App() {
   const theme = useThemeStore((state) => state.mode);
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/*" element={<Error />} />
         </Routes>
       </div>
     </>
