@@ -4,6 +4,7 @@ import Footer from '../components/organisme/Footer';
 import Navbar from '../components/organisme/Navbar';
 import useThemeStore from '../store/ThemeStore';
 import { Helmet } from 'react-helmet';
+import ListExperience from '../components/molecules/ListExperience';
 export default function Experience() {
   const mode = useThemeStore((state) => state.mode);
   return (
@@ -25,7 +26,9 @@ export default function Experience() {
               Page
             </div>
           </div>
-          <div className="md:w-1/2 w-11/12 mt-7 md:mt-0"></div>
+          <div className="md:w-1/2 w-11/12 mt-7 md:mt-0 h-2/3 overflow-y-auto px-4 animate__animated animate__fadeIn animate__slow">
+            <ListExperience/>
+          </div>
         </div>
         <Footer
           nextStatus={true}
