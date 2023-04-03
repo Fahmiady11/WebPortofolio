@@ -20,6 +20,7 @@ import reactdico from '../../assets/image/sertifikat/reactdico.png';
 import solid from '../../assets/image/sertifikat/solid.png';
 import trust from '../../assets/image/sertifikat/trust.png';
 import uxdesign from '../../assets/image/sertifikat/uxdesign.png';
+import progateReact from '../../assets/image/sertifikat/progateReact.jpg';
 
 import ImageCertif from '../atoms/ImageCertif';
 import FsLightbox from 'fslightbox-react';
@@ -94,6 +95,11 @@ export default function Certificate() {
         <ImageCertif img={solid} openLight={openLightboxOnSlide} no={19} />
         <ImageCertif img={trust} openLight={openLightboxOnSlide} no={20} />
         <ImageCertif img={uxdesign} openLight={openLightboxOnSlide} no={21} />
+        <ImageCertif
+          img={progateReact}
+          openLight={openLightboxOnSlide}
+          no={22}
+        />
       </div>
     </>
   );

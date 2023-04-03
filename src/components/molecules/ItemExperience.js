@@ -28,7 +28,7 @@ export default function ItemExperience(props) {
           {title}
           {latest ? (
             <span
-              className={`bg-blue-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3 ${
+              className={`text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3 ${
                 mode === 'light' ? 'text-white bg-orange-600' : 'bg-[#12F3D8] text-gray-900'
               }`}
             >

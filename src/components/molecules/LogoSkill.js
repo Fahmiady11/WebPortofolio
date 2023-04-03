@@ -6,7 +6,7 @@ import ImageSkill from '../atoms/ImageSkill';
 export default function LogoSkill(props) {
   return (
     <>
-      <div className="flex flex-row justify-center mb-10 md:justify-start items-center flex-wrap 2xl:w-1/2">
+      <div className="flex flex-row justify-center mb-20 md:justify-start items-center flex-wrap 2xl:w-3/4">
         <ImageSkill
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
           alt=""
