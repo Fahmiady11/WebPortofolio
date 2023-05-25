@@ -35,7 +35,7 @@ export default function ProjectCard(props) {
         slide={lightboxController.slide}
       />
       <div
-        className={`rounded-xl border-2 items-center backdrop-blur-sm justify-between shadow-md md:items-start p-4 gap-4 flex flex-col xl:flex-row ${
+        className={`rounded-xl max-w-6xl w-full border-2 items-center backdrop-blur-sm justify-between shadow-md md:items-start p-4 gap-4 flex flex-col xl:flex-row ${
           mode === 'light' ? 'bg-gray-100 border-gray-200/80' : 'bg-white/5 border-white/10'
         }`}
       >

@@ -32,6 +32,17 @@ import Lanjalan2 from "../../assets/image/project/lanjalan/image2.png";
 import Lanjalan3 from "../../assets/image/project/lanjalan/image3.png";
 import Lanjalan4 from "../../assets/image/project/lanjalan/image4.png";
 import Lanjalan5 from "../../assets/image/project/lanjalan/image5.png";
+//10.profileImage
+import profile1 from "../../assets/image/project/profileImage/4.png";
+import profile2 from "../../assets/image/project/profileImage/1.png";
+import profile3 from "../../assets/image/project/profileImage/2.png";
+import profile4 from "../../assets/image/project/profileImage/3.png";
+import profile5 from "../../assets/image/project/profileImage/5.png";
+import profile6 from "../../assets/image/project/profileImage/6.png";
+import profile7 from "../../assets/image/project/profileImage/7.png";
+import profile8 from "../../assets/image/project/profileImage/8.png";
+import profile9 from "../../assets/image/project/profileImage/9.png";
+import profile10 from "../../assets/image/project/profileImage/10.png";
 
 export default function ProjectMe(props) {
   return (
@@ -56,6 +67,27 @@ export default function ProjectMe(props) {
           isWebsite={false}
           linkGithub="https://github.com/Fahmiady11/CodeIn_RuangGuru"
           linkWebsite=""
+        />
+        <ProjectCard
+          image={[
+            profile4,
+            profile1,
+            profile2,
+            profile3,
+            profile5,
+            profile6,
+            profile7,
+            profile8,
+            profile9,
+            profile10,
+          ]}
+          decs="a website-based application project with the feature of changing profile photos with camera devices, and cropping photos from the camera before uploading."
+          title="Profile Image"
+          tag={["React", "Tailwind"]}
+          isGithub={true}
+          isWebsite={true}
+          linkGithub="https://github.com/Fahmiady11/profileTest"
+          linkWebsite="https://profilecameracrop.netlify.app/"
         />
         <ProjectCard
           image={[snakeGame]}
