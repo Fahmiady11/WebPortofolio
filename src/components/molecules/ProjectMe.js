@@ -53,10 +53,10 @@ export default function ProjectMe(props) {
           decs="Lanjalan is a website that has the goal of introducing tourism, culinary and lodging located in the Madura area as well as being able to make travel, lodging and culinary bookings."
           title="Lanjalan"
           tag={["React", "Tailwind", "Laravel"]}
-          isGithub={true}
-          isWebsite={false}
+          isGithub={false}
+          isWebsite={true}
           linkGithub=""
-          linkWebsite=""
+          linkWebsite="https://aleng-fe-fahmiady11.vercel.app/"
         />
         <ProjectCard
           image={[listB, homeCodein, detailBCodein, detailFCodein, inputF]}
