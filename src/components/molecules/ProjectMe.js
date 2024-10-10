@@ -43,6 +43,8 @@ import profile7 from "../../assets/image/project/profileImage/7.png";
 import profile8 from "../../assets/image/project/profileImage/8.png";
 import profile9 from "../../assets/image/project/profileImage/9.png";
 import profile10 from "../../assets/image/project/profileImage/10.png";
+//11.pokemon
+import pokemon from "../../assets/image/project/pokemon/pokemon1.png";
 
 export default function ProjectMe(props) {
   return (
@@ -111,7 +113,7 @@ export default function ProjectMe(props) {
           linkGithub="https://github.com/Fahmiady11/Sistem-informasi-WEBTIX"
           linkWebsite=""
         />
-        <ProjectCard
+        {/* <ProjectCard
           image={[lapet1, lapet3, lapet2]}
           decs="Lapetshop is a website for buying and selling animal needs from food, medicine, toys, accessories and care, this system uses
           laravel in the making."
@@ -121,6 +123,16 @@ export default function ProjectMe(props) {
           isWebsite={false}
           linkGithub="https://github.com/Fahmiady11/lapetshop_web"
           linkWebsite=""
+        /> */}
+        <ProjectCard
+          image={[pokemon]}
+          decs="Simple website with pokemon API consumption"
+          title="Pokemon"
+          tag={["React", "Tailwind", "Zustand"]}
+          isGithub={true}
+          isWebsite={true}
+          linkGithub="https://github.com/Fahmiady11/pokemon-go"
+          linkWebsite="https://fahmiady11.github.io/pokemon-go/"
         />
         <ProjectCard
           image={[todoList]}
