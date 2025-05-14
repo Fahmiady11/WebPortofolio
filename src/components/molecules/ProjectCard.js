@@ -87,7 +87,7 @@ export default function ProjectCard(props) {
             </div>
             <div className="flex gap-2">
               {isGithub ? (
-                <a href={linkGithub}>
+                <a href={linkGithub} rel="noreferrer" target="_blank">
                   <div className="flex flex-row gap-1 py-1 px-2 shadow-md rounded-md bg-[#12F3D8] text-black text-sm cursor-pointer hover:bg-[#0ddac2]">
                     <img
                       className="w-5"
@@ -99,7 +99,7 @@ export default function ProjectCard(props) {
                 </a>
               ) : null}
               {isWebsite ? (
-                <a href={linkWebsite}>
+                <a href={linkWebsite} rel="noreferrer" target="_blank">
                   <div className="flex flex-row gap-1 py-1 px-2 shadow-md rounded-md bg-[#12F3D8] text-black text-sm cursor-pointer hover:bg-[#0ddac2]">
                     <LinkIcon className="w-5" />
                     <p className="truncate">Website</p>

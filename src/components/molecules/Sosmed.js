@@ -4,7 +4,7 @@ export default function Sosmed(props) {
   const mode = useThemeStore((state) => state.mode);
   return (
     <>
-      <a href={props.link}>
+      <a href={props.link} rel="noreferrer" target="_blank">
         <div
           className={`${
             mode === 'light'

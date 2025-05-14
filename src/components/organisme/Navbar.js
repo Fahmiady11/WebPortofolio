@@ -61,7 +61,7 @@ export default function Navbar() {
                   to={item.path}
                   className={({ isActive }) =>
                     isActive
-                      ? ' text-sm bg-green-700 py-2 px-4 rounded-md shadow-md backdrop-blur-2xl'
+                      ? ' text-sm text-white bg-green-700 py-2 px-4 rounded-md shadow-md backdrop-blur-2xl'
                       : 'text-sm'
                   }
                 >
@@ -113,7 +113,7 @@ export default function Navbar() {
                       to={item.path}
                       className={({ isActive }) =>
                         isActive
-                          ? ' text-sm bg-green-700 py-2 px-16 sm:px-4 rounded-full sm:rounded-md shadow-md backdrop-blur-2xl'
+                          ? ' text-sm text-white bg-green-700 py-2 px-16 sm:px-4 rounded-full sm:rounded-md shadow-md backdrop-blur-2xl'
                           : 'text-sm'
                       }
                     >

@@ -66,6 +66,8 @@ export default function CardContact(props) {
             ) : (
               <a
                 href={link}
+                rel="noreferrer"
+                target="_blank"
                 className={`w-7 h-7 sm:w-auto flex justify-center items-center  cursor-pointer sm:py-2  sm:px-3 sm:h-1/2 my-auto ${bg} rounded-md shadow-md ${
                   mode === 'light'
                     ? ' hover:bg-blue-500/40'

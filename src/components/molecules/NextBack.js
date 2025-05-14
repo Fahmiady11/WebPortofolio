@@ -11,7 +11,7 @@ export default function NextBack(props) {
           <p className="text-green-600 font-semibold font-poppins">{name}</p>
           <p className="text-green-600 font-semibold font-poppins">{no}</p>
           <p className="text-gray-700 font-semibold font-poppins">/</p>
-          <p className="text-gray-700 font-semibold font-poppins">05</p>
+          <p className="text-gray-700 font-semibold font-poppins">06</p>
         </div>
         <div className="flex flex-row gap-5 items-center">
           {prevStatus ? (

@@ -70,7 +70,7 @@ export default function ProjectMe(props) {
           linkGithub="https://github.com/Fahmiady11/CodeIn_RuangGuru"
           linkWebsite=""
         />
-        <ProjectCard
+        {/* <ProjectCard
           image={[
             profile4,
             profile1,
@@ -90,7 +90,7 @@ export default function ProjectMe(props) {
           isWebsite={true}
           linkGithub="https://github.com/Fahmiady11/profileTest"
           linkWebsite="https://profilecameracrop.netlify.app/"
-        />
+        /> */}
         <ProjectCard
           image={[snakeGame]}
           decs="The snake game that I have made is a browser game, there are already levels, Level and Life Challenges, so it is fun to play."
@@ -101,7 +101,7 @@ export default function ProjectMe(props) {
           linkGithub="https://github.com/Fahmiady11/se-fe6-kelompok8"
           linkWebsite="https://rg-km.github.io/se-fe6-kelompok8/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           image={[webtix1, webtix2, webtix3]}
           decs="Webtix is ​​a Website-based ticket booking, this website is made in the PHP Native programming language
           This system already uses an API so that it knows the current and upcoming films, then to
@@ -112,7 +112,7 @@ export default function ProjectMe(props) {
           isWebsite={false}
           linkGithub="https://github.com/Fahmiady11/Sistem-informasi-WEBTIX"
           linkWebsite=""
-        />
+        /> */}
         {/* <ProjectCard
           image={[lapet1, lapet3, lapet2]}
           decs="Lapetshop is a website for buying and selling animal needs from food, medicine, toys, accessories and care, this system uses
