@@ -16,14 +16,6 @@ import calculator from "../../assets/image/project/calculator/calculator.png";
 //5.restourant
 import resto1 from "../../assets/image/project/restourant/resto.png";
 import resto2 from "../../assets/image/project/restourant/resto2.png";
-//6.webtix
-import webtix1 from "../../assets/image/project/webtix/webtix1.png";
-import webtix2 from "../../assets/image/project/webtix/webtix2.png";
-import webtix3 from "../../assets/image/project/webtix/webtix3.png";
-//7.Lapetshop
-import lapet1 from "../../assets/image/project/lapetshop/pet1.png";
-import lapet2 from "../../assets/image/project/lapetshop/pet2.png";
-import lapet3 from "../../assets/image/project/lapetshop/pet3.png";
 //8.Tictactou
 import ttt from "../../assets/image/project/tictactou/tictac.png";
 //9.lanjalan
@@ -32,24 +24,34 @@ import Lanjalan2 from "../../assets/image/project/lanjalan/image2.png";
 import Lanjalan3 from "../../assets/image/project/lanjalan/image3.png";
 import Lanjalan4 from "../../assets/image/project/lanjalan/image4.png";
 import Lanjalan5 from "../../assets/image/project/lanjalan/image5.png";
-//10.profileImage
-import profile1 from "../../assets/image/project/profileImage/4.png";
-import profile2 from "../../assets/image/project/profileImage/1.png";
-import profile3 from "../../assets/image/project/profileImage/2.png";
-import profile4 from "../../assets/image/project/profileImage/3.png";
-import profile5 from "../../assets/image/project/profileImage/5.png";
-import profile6 from "../../assets/image/project/profileImage/6.png";
-import profile7 from "../../assets/image/project/profileImage/7.png";
-import profile8 from "../../assets/image/project/profileImage/8.png";
-import profile9 from "../../assets/image/project/profileImage/9.png";
-import profile10 from "../../assets/image/project/profileImage/10.png";
 //11.pokemon
 import pokemon from "../../assets/image/project/pokemon/pokemon1.png";
+//12.skripsi
+import skripsi1 from "../../assets/image/project/skripsi/skripsi1.png";
+import skripsi2 from "../../assets/image/project/skripsi/skripsi2.png";
+//13.cbt
+import cbt1 from "../../assets/image/project/cbt/cbt1.png";
+import cbt2 from "../../assets/image/project/cbt/cbt2.png";
+import cbt3 from "../../assets/image/project/cbt/cbt3.png";
+import cbt4 from "../../assets/image/project/cbt/cbt4.png";
+import cbt5 from "../../assets/image/project/cbt/cbt5.png";
+import cbt6 from "../../assets/image/project/cbt/cbt6.png";
+
 
 export default function ProjectMe(props) {
   return (
     <>
       <div className="flex flex-col items-center gap-4 overflow-auto h-full ">
+        <ProjectCard
+          image={[cbt4, cbt1, cbt2, cbt3, cbt5, cbt6]}
+          decs="The Computer Based Test (CBT) website is used as a means for students to carry out Pre-Tests and Post-Tests, and also helps teachers to compile questions, monitor student progress in real-time, and evaluate exam results more efficiently through an automated system."
+          title="Computer Based Test"
+          tag={["CodeIgniter 4", "Tailwind"]}
+          isGithub={false}
+          isWebsite={false}
+          linkGithub=""
+          linkWebsite=""
+        />
         <ProjectCard
           image={[Lanjalan1, Lanjalan2, Lanjalan3, Lanjalan4, Lanjalan5]}
           decs="Lanjalan is a website that has the goal of introducing tourism, culinary and lodging located in the Madura area as well as being able to make travel, lodging and culinary bookings."
@@ -66,31 +68,20 @@ export default function ProjectMe(props) {
           title="CodeIn"
           tag={["React", "Tailwind", "GO"]}
           isGithub={true}
-          isWebsite={false}
-          linkGithub="https://github.com/Fahmiady11/CodeIn_RuangGuru"
-          linkWebsite=""
+          isWebsite={true}
+          linkGithub="https://github.com/Fahmiady11/streamlit_deploy2/"
+          linkWebsite="https://fahmiskripsi2.streamlit.app/"
         />
-        {/* <ProjectCard
-          image={[
-            profile4,
-            profile1,
-            profile2,
-            profile3,
-            profile5,
-            profile6,
-            profile7,
-            profile8,
-            profile9,
-            profile10,
-          ]}
-          decs="a website-based application project with the feature of changing profile photos with camera devices, and cropping photos from the camera before uploading."
-          title="Profile Image"
-          tag={["React", "Tailwind"]}
+        <ProjectCard
+          image={[skripsi1, skripsi2]}
+          decs="A website project created to predict the selling price of Madura batik, with 4 parameters (Cloth Price, Production Time, Motif, Coloring) as the determinant. This project uses Fuzzy Mamdani and Genetic Algorithm"
+          title="Batik Selling Price Prediction"
+          tag={["Python", "Streamlit"]}
           isGithub={true}
           isWebsite={true}
-          linkGithub="https://github.com/Fahmiady11/profileTest"
-          linkWebsite="https://profilecameracrop.netlify.app/"
-        /> */}
+          linkGithub=""
+          linkWebsite="https://aleng-fe-fahmiady11.vercel.app/"
+        />
         <ProjectCard
           image={[snakeGame]}
           decs="The snake game that I have made is a browser game, there are already levels, Level and Life Challenges, so it is fun to play."
@@ -101,29 +92,6 @@ export default function ProjectMe(props) {
           linkGithub="https://github.com/Fahmiady11/se-fe6-kelompok8"
           linkWebsite="https://rg-km.github.io/se-fe6-kelompok8/"
         />
-        {/* <ProjectCard
-          image={[webtix1, webtix2, webtix3]}
-          decs="Webtix is ​​a Website-based ticket booking, this website is made in the PHP Native programming language
-          This system already uses an API so that it knows the current and upcoming films, then to
-          the reservation itself can choose the movie, the number of tickets, the time and the seat."
-          title="Webtix website"
-          tag={["HTML", "PHP", "API"]}
-          isGithub={true}
-          isWebsite={false}
-          linkGithub="https://github.com/Fahmiady11/Sistem-informasi-WEBTIX"
-          linkWebsite=""
-        /> */}
-        {/* <ProjectCard
-          image={[lapet1, lapet3, lapet2]}
-          decs="Lapetshop is a website for buying and selling animal needs from food, medicine, toys, accessories and care, this system uses
-          laravel in the making."
-          title="Lapetshop"
-          tag={["HTML", "Laravel", "PHP"]}
-          isGithub={true}
-          isWebsite={false}
-          linkGithub="https://github.com/Fahmiady11/lapetshop_web"
-          linkWebsite=""
-        /> */}
         <ProjectCard
           image={[pokemon]}
           decs="Simple website with pokemon API consumption"
@@ -144,17 +112,6 @@ export default function ProjectMe(props) {
           isWebsite={true}
           linkGithub="https://github.com/Fahmiady11/TodoList_progate"
           linkWebsite="https://reactprogatefahmi.netlify.app/"
-        />
-        <ProjectCard
-          image={[resto1, resto2]}
-          decs="This website is a simple website which consists of a home page and a detail page, but it's already there
-          filter products based on open and close, and also based on the maximum price of the product."
-          title="Restourant website"
-          tag={["React", "CSS"]}
-          isGithub={true}
-          isWebsite={true}
-          linkGithub="https://github.com/Fahmiady11/FrontendDevReactjs-Sekawan-Muhammad-fahmi-ady-susilo"
-          linkWebsite="https://restourantfahmi.netlify.app/"
         />
         <ProjectCard
           image={[calculator]}

@@ -28,7 +28,7 @@ export default function About() {
             </div>
           </div>
           <div className="md:w-1/2 w-11/12 mt-7 md:mt-0 animate__animated animate__fadeIn animate__slow">
-            <Description decs="I am an Informatics Engineering student who focuses on web programming, especially on the front end, in web programming I have skills in HTML, CSS, Bootstarp, Tailwind, Javascript, React, NextJs and others which can be seen on the next page." />
+            <Description decs="A Software Developer with hands-on experience in frontend development using ReactJS and Tailwind CSS, as well as a solid understanding of backend development with PHP, PostgreSQL, and frameworks such as CodeIgniter and Laravel." />
             <div className="mt-7">
               <div className="flex flex-row items-center gap-2 font-poppins">
                 <hr

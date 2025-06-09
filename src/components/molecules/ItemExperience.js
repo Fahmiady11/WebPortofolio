@@ -4,6 +4,7 @@ import { ClipboardListIcon } from '@heroicons/react/solid';
 export default function ItemExperience(props) {
   const { title, date, decs, latest } = props;
   const mode = useThemeStore((state) => state.mode);
+  console.log(decs);
   return (
     <>
       <li className="mb-10 ml-6 ">
@@ -44,11 +45,11 @@ export default function ItemExperience(props) {
           {date}
         </time>
         <p
-          className={`mb-4 text-base font-normal ${
+          className={`mb-4 text-base font-normal text-justify ${
             mode === 'light' ? 'text-gray-900' : 'text-white'
           }`}
         >
-          {decs}
+         <ul className='list-disc pl-5'>{decs}</ul>
         </p>
       </li>
     </>

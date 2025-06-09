@@ -59,7 +59,7 @@ function App() {
 														loop
 														typeSpeed={70}
 														backSpeed={40}
-														strings={["Tunggu", "Sebentar ya!"]}
+														strings={["Please wait", "Just a moment!"]}
 														smartBackspace
 														shuffle={false}
 														backDelay={1}

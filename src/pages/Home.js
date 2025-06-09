@@ -75,7 +75,7 @@ export default function Home() {
 									} `}
 								/>
 								<p className="text-sm font-quicksand font-semibold md:text-base">
-									Lamongan,Indonesia
+									Lamongan, Indonesia
 								</p>
 							</div>
 							<div className="flex flex-row items-center gap-2">

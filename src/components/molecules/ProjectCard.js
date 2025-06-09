@@ -68,7 +68,7 @@ export default function ProjectCard(props) {
             {title}
           </p>
           <p
-            className={`font-normal font-poppins text-sm ${
+            className={`font-normal font-poppins text-sm text-justify ${
               mode === 'light' ? 'text-black' : ' text-white'
             }`}
           >

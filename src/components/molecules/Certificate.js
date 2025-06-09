@@ -21,6 +21,7 @@ import solid from '../../assets/image/sertifikat/solid.png';
 import trust from '../../assets/image/sertifikat/trust.png';
 import uxdesign from '../../assets/image/sertifikat/uxdesign.png';
 import progateReact from '../../assets/image/sertifikat/progateReact.jpg';
+import bwai from '../../assets/image/sertifikat/bwai.jpg';
 
 import ImageCertif from '../atoms/ImageCertif';
 import FsLightbox from 'fslightbox-react';
@@ -62,6 +63,8 @@ export default function Certificate() {
           solid,
           trust,
           uxdesign,
+          progateReact,
+          bwai,
         ]}
         slide={lightboxController.slide}
       />
@@ -100,6 +103,7 @@ export default function Certificate() {
           openLight={openLightboxOnSlide}
           no={22}
         />
+        <ImageCertif img={bwai} openLight={openLightboxOnSlide} no={23} />
       </div>
     </>
   );
