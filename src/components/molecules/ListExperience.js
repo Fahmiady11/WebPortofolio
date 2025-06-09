@@ -7,7 +7,7 @@ export default function ListExperience(second) {
 			<div className="w-auto md:w-11/12">
 				<ol className="relative border-l border-gray-200 dark:border-gray-700">
 					<ItemExperience
-						title="FULL TIME DEVELOPER WEB SEVIMA"
+						title="Software Developer"
 						date="Juli 2023 - Present"
 						decs ={
 							<ul className="list-disc pl-4">
@@ -28,7 +28,7 @@ export default function ListExperience(second) {
 						latest={true}
 					/>
 					<ItemExperience
-						title="PART TIME WEBSITE LANJALAN UTM"
+						title="Frontend Development"
 						date="December 2022 - December 2023"
 						decs={
 							<ul className="list-disc pl-4">
