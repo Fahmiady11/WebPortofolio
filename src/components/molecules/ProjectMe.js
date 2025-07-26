@@ -68,9 +68,9 @@ export default function ProjectMe(props) {
           title="CodeIn"
           tag={["React", "Tailwind", "GO"]}
           isGithub={true}
-          isWebsite={true}
-          linkGithub="https://github.com/Fahmiady11/streamlit_deploy2/"
-          linkWebsite="https://fahmiskripsi2.streamlit.app/"
+          isWebsite={false}
+          linkGithub="https://github.com/Fahmiady11/CodeIn_RuangGuru"
+          linkWebsite=""
         />
         <ProjectCard
           image={[skripsi1, skripsi2]}
@@ -79,8 +79,8 @@ export default function ProjectMe(props) {
           tag={["Python", "Streamlit"]}
           isGithub={true}
           isWebsite={true}
-          linkGithub=""
-          linkWebsite="https://aleng-fe-fahmiady11.vercel.app/"
+          linkGithub="https://github.com/Fahmiady11/streamlit_deploy2/"
+          linkWebsite="https://fahmiskripsi2.streamlit.app/"
         />
         <ProjectCard
           image={[snakeGame]}
